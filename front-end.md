@@ -83,6 +83,44 @@
         - espaçamento
         - alinhamento   
 - JavaScript  
+    - Tipos de dados
+        - String ""
+    - Objetos
+    - Variáveis
+    - Funções
+    - Condições
+    - Repetições
+
+## Exemplo de aula
+
+>HTML
+```html
+<!-- isso é uma tag <html> -->
+<!-- Na tag <head> irá configurações do meu documento. -->    
+<!-- Na Tag <body>: Todo conteúdo visível da página. -->
+<!--
+HTML
+
+HyperText
+    Hipertexto
+    <a>
+
+Markup
+    Marcação
+
+Language
+    Linguagem
+-->
+```
+>CSS
+```css
+/* 
+CSS - Cascading Style Sheet 
+Folha de estilo Em cascata
+
+tamanho da fonte padrão: 16px - 100% - 1rem 
+*/
+```
 
 ## Codes
 

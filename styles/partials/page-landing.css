@@ -101,8 +101,7 @@
         grid-template-areas:
         "proffy image image"
         "button button texting";
-        column-gap: 87px;
-        row-gap: 86px;
+        gap: 60px;
     }
 
     .logo-container {
@@ -131,5 +130,11 @@
         grid-area: texting;
         justify-self: end;
         font-size: 1.2rem;
+    }
+    
+    @media (min-width: 700px) {
+        :root {
+            font-size: 62.5%;
+        }
     }
 }

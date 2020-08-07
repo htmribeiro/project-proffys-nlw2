@@ -1,11 +1,8 @@
-/* CSS - Cascading Style Sheet 
-Folha de estilo Em cascata */
-
 :root {
     /* variáveis css */
     --color-background: #f0f0f7;
     --color-primary-lighter: #9871F5;
-    --color-primary-ligth: #916BEA;
+    --color-primary-light: #916BEA;
     --color-primary: #8257e5;
     --color-primary-dark: #774dd6;
     --color-primary-darker: #6842c2;
@@ -30,7 +27,7 @@ Folha de estilo Em cascata */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 
 html, 
@@ -49,10 +46,7 @@ body,
 input,
 button,
 textarea {
-    /* font: 500 1.6rem Poppins; { essa linha resume as 3 linhas abaixo }*/ 
-    font-weight: 500;
-    font-family: Poppins;
-    font-size: 1.6rem;
+    font: 500 1.6rem Poppins;
     color: var(--color-text-base);
 }
 
@@ -62,16 +56,5 @@ textarea {
     /* box model */
     width: 90vw; /* width = largura */
     max-width: 700px;
-    border: 1px solid red;
-/* 
-    padding-left: 50px;
-    padding: 10px 40px 100px;
-    margin: 60px;
-    height: 300px; */
-}
-
-@media (min-width: 700px) {
-    :root {
-        font-size: 62.5%; /* todo 1rem vai ser relativo a 10px */
-    }
+    /* border: 1px solid red; */
 }
