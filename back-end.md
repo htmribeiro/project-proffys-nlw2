@@ -40,8 +40,11 @@
                 - for
             - Instalar extensão `nunjucks-template` nas extensões VSCode
         - Dados
+            - Enviando dados
+            - Recebendo dados
+            - Persistindo (guardando) banco de dados
 
-
+```bash
 >`npm`  
 (Node Package Manager)  
 -> É responsável em fazer o gerenciamento de dependências de pacotes nuggets/subaplicações.
@@ -51,8 +54,9 @@
 
 >`$ node src/server.js`  
 -> Comando para startar a aplicação no servidor Node.  
-
+```
 ---
+```bash
 ## Instalações NPM
 >`$ npm install express`  
 -> **Express** é uma coleção de estratégias que será agregado ao projeto.  
@@ -61,12 +65,20 @@
 -> **nodemon** é um monitoramento do node  
 -> **-D** - argumento para instalar em um lugar específico [DEV].  
 Este fará com que todas vez que alguma alteração no **`server`** for salva, ele reiniciará o servidor node.  
-<br>
-`$ npm run dev`  
+
+>`$ npm run dev`  
 -> O script será executado com este comando  
 
 >`$ npm instal nunjucks`  
 -> A rich and powerful templating language for JavaScript.
----  
+```
+---
+```bash  
 ## > Terminal  
 `CTRL+C` - Cancela execução
+```
+---
+
+Desenvolvido com 💜 por Hamilton Ribeiro
+
+https://avatars1.githubusercontent.com/u/36341001?s=460&u=1935bcd93a65998595979029b26aa40c894898ec&v=4

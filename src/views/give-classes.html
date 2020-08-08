@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
         </header>
 
         <main>
-        <form action="" id="create-classes">
+        <form action="" id="create-class">
             <fieldset>
                 <legend>Seus Dados</legend>
                 
@@ -64,11 +64,13 @@
                     <label for="subject">Matéria</label>
                     <select name="subject" id="subject" required>
                         <option value="">Selecione uma opção</option>
+
                         {%for subject in subjects%}
                                 <option value="{{loop.index}}">
                                     {{subject}}
                                 </option>                            
                         {%endfor%}
+
                     </select>
                 </div>
 
@@ -76,7 +78,7 @@
                     <label for="cost">Custo da sua hora/aula
                         <small>(R$)</small>
                     </label>
-                    <input type="cost" id="cost" type="number" required>
+                    <input name="cost" type="cost" id="cost" type="number" required>
                 </div>
             </fieldset>
 
