@@ -33,7 +33,12 @@
 - Exportar o objeto para ser usado em outro local
 - Importar o banco de dados no server.js
 - Utilizar o banco de dados nas rotas
+---
+>` `` `  
+As *crases* no JavaScript é chamado de **Literal Templates**
 
+>`${}`  
+Utilizado para colocarmos uma *variável* dentro do texto (**Literal Templates**)
 ---
 ## Instalações NPM
 
