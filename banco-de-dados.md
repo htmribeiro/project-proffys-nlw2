@@ -33,3 +33,25 @@
 - Exportar o objeto para ser usado em outro local
 - Importar o banco de dados no server.js
 - Utilizar o banco de dados nas rotas
+
+---
+## Instalações NPM
+
+>`$ npm install sqlite-async`  
+Comando para fazer a instalação do banco de dados SQLite.  
+
+---
+
+## Terminal
+
+>`$ node src/database/db.js`  
+Comando para executar o banco de dados  
+
+---
+
+## Extensões VSCode
+SQLite  
+alexcvzz  
+Explore and query SQLite databases.  
+
+---
