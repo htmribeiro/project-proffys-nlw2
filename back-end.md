@@ -44,20 +44,20 @@
             - Recebendo dados
             - Persistindo (guardando) banco de dados
 
-```bash
 >`npm`  
 (Node Package Manager)  
 -> É responsável em fazer o gerenciamento de dependências de pacotes nuggets/subaplicações.
 
+
 >`$ npm init -y`  
--> Comando responsável po iniciar um novo projeto no caminho apontado.  
+Comando responsável po iniciar um novo projeto no caminho apontado.  
 
 >`$ node src/server.js`  
--> Comando para startar a aplicação no servidor Node.  
-```
+Comando para startar a aplicação no servidor Node.  
+
 ---
-```bash
 ## Instalações NPM
+
 >`$ npm install express`  
 -> **Express** é uma coleção de estratégias que será agregado ao projeto.  
 
@@ -66,17 +66,17 @@
 -> **-D** - argumento para instalar em um lugar específico [DEV].  
 Este fará com que todas vez que alguma alteração no **`server`** for salva, ele reiniciará o servidor node.  
 
->`$ npm run dev`  
--> O script será executado com este comando  
 
 >`$ npm instal nunjucks`  
 -> A rich and powerful templating language for JavaScript.
-```
+
 ---
-```bash  
+
 ## > Terminal  
 `CTRL+C` - Cancela execução
-```
+
+>`$ npm run dev`  
+-> O script será executado com este comando  
 ---
 
 Desenvolvido com 💜 por Hamilton Ribeiro
