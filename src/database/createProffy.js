@@ -9,11 +9,12 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
         ) VALUES (
             "${proffyValue.name}",
             "${proffyValue.avatar}",
+            "${proffyValue.whatsapp}",
             "${proffyValue.bio}"
         );
     `)
 
-    const proffy_id = iinsertedProffy.lastID
+    const proffy_id = insertedProffy.lastID
 
     // Inserir dados na tabela classes
     const insertedClass = await db.run(`
@@ -31,7 +32,7 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
     const class_id = insertedClass.lastID
 
     // Inserir daados na tabela class_Schedule
-    const insertedAllClassScheduleValues = classScheduleValues.map((classScheduleValues) => {
+    const insertedAllClassScheduleValues = classScheduleValues.map((classScheduleValue) => {
         return db.run(`
             INSERT INTO class_schedule (
                 weekday,
@@ -39,9 +40,9 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
                 time_to,
                 class_id
             ) VALUES (
-                "${classScheduleValues.weekday}",
-                "${classScheduleValues.time_from}",
-                "${classScheduleValues.time_to}",
+                "${classScheduleValue.weekday}",
+                "${classScheduleValue.time_from}",
+                "${classScheduleValue.time_to}",
                 "${class_id}"
             );
         `)

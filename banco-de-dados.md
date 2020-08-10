@@ -32,7 +32,21 @@
     - Apagar um dado na tabela
 - Exportar o objeto para ser usado em outro local
 - Importar o banco de dados no server.js
-- Utilizar o banco de dados nas rotas
+- Utilizar o banco de dados nas rotas  
+
+## Desafios
+
+## 01 - Página de sucesso
+- Mostrar página de sucesso após o cadastro do proffy
+        - utilizar a imagem ***`./images/success-background.svg`*** 
+- Aguardar 2 segundos na página e redirecionar para a listagem dos proffys, com filtro
+    - use **setTimeout** para aguardar os 2 segundos
+    - location.href="" --> para redirecionar a página de sucesso
+
+## 02 - Correção de bugs
+    - Não permitir o usuário colocar um novo campo de **dia e horário**, se o dia e hora anterior estiver vazio.
+    - Funcionalidade de deletar um campo de dia e hora.
+    
 ---
 >` `` `  
 As *crases* no JavaScript é chamado de **Literal Templates**
@@ -58,5 +72,13 @@ Comando para executar o banco de dados
 SQLite  
 alexcvzz  
 Explore and query SQLite databases.  
+
+### Abrir o banco de dados:
+1. Clicar no arquivo `database.sqlite` com o botão esquerdo do mouse
+1. Clicar na opção `Open Database`
+1. Após ele carregar a extensão, aparecerá na janela **EXPLORER** o submenu ***SQLITE EXPLORER***
+1. Ao expandir o banco de dados
+1. Posicionamos o mouse sobre uma das tabela e clicamos na opção **Show Table**, através do botão *play* a direita ou clicando com o botão esquerdo do mouse em cima da tabela desejada.
+
 
 ---
